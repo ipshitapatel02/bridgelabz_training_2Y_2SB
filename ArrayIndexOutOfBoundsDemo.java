@@ -10,9 +10,9 @@ public class ArrayIndexOutOfBoundsDemo {
         try {
             System.out.println("Accessing invalid index: " + names[names.length]);
         } catch (ArrayIndexOutOfBoundsException e) {
-            System.out.println("⚠️ Caught ArrayIndexOutOfBoundsException: " + e.getMessage());
+            System.out.println("Caught ArrayIndexOutOfBoundsException: " + e.getMessage());
         } catch (RuntimeException e) {
-            System.out.println("⚠️ Caught RuntimeException: " + e.getMessage());
+            System.out.println("Caught RuntimeException: " + e.getMessage());
         }
     }
 
